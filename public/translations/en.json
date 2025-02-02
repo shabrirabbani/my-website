@@ -1,0 +1,96 @@
+{
+    "general": {
+        "name": "Muhammad Shabri Rabbani",
+        "headline": "Specializing in building responsive and interactive user interfaces with modern technologies.",
+        "about": [
+            "Hey there! 👋",
+            "I am a computer science graduate from Syiah Kuala University with a strong passion for technology and software development, including frontend, backend, and full-stack development. I possess a solid programming background, particularly in Javascript (React, Next.js, Vue, Node.js), Typescript, Java (Spring), and PHP (Laravel). I have hands-on experience with all these frameworks."
+        ],
+        "socials": {
+            "email": "mohammedshabrii@mail.com",
+            "linkedin": "https://www.linkedin.com/in/muhammad-shabri-rabbani-46aa2a206/",
+            "github": "https://github.com/shabrirabbani"
+        }
+    },
+    "experiences": [
+        {
+            "title": "Software Engineer",
+            "company": "PT Justika Siar Publika (Hukumonline)",
+            "href": "https://www.hukumonline.com/",
+            "startDate": "07/2024",
+            "endDate": "01/2025",
+            "description": "Collaborating with the team to building responsive user interfaces with Next.ts and Ant Design, integrating data with GraphQL, and optimizing performance for seamless user experiences",
+            "logo": "/logos/Logo-Hukumonline.png",
+            "skills": ["Next", "GraphQL", "Ant Design", "TypeScript", "Apollo Client"]
+        },
+        {
+            "title": "Software Engineer Intern",
+            "company": "PT Bahasa Kinerja Utama",
+            "href": "https://www.bahasakita.co.id/#/",
+            "startDate": "03/2024",
+            "endDate": "06/2024",
+            "description": "Design and develop Stehosoul.id website using React.js and Tailwind CSS. Building admin dashboard for managing the Bahasakita.id for internal purposes using React.js.",
+            "logo": "/logos/logoBK.svg",
+            "skills": ["React", "REST API", "Redux", "Axios", "JavaScript", "Tailwind CSS"]
+        },
+        {
+            "title": "Software Engineer Intern",
+            "company": "TDMRC USK",
+            "href": "https://tdmrc.usk.ac.id/",
+            "startDate": "08/2022",
+            "endDate": "11/2022",
+            "description": "Contributed to the development of an advanced E-Arsip platform, which increased employee accessibility and reduced operational workflow inefficiencies",
+            "logo": "/logos/logotdmrc.png",
+            "skills": ["Laravel", "PHP", "MySQL", "HTML", "CSS", "Materialize UI"]
+        }
+    ],
+    "education": [
+        {
+            "subject": "University of Syiah Kuala",
+            "degree": "Bachelor of Computer Science",
+            "university": "Cummulative GPA: 3.63/4.00", 
+            "href": "",
+            "startDate": "2019", 
+            "endDate": "2024", 
+            "description": "Relevant coursework: Software Engineer, Web Design,UI/UX, Algorithm, Algorithm and Data Structure, Computer Architecture, Data Science"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Movieratt",
+            "framework": "React.Js - Tailwind CSS - TMDB API - Axios - Redux",
+            "description": "A website displaying the latest movie ratings, reviews, and audience scores to help users find trending films.",
+            "href": "https://movieratt.netlify.app/",
+            "photo": "/photo/movieratt.png"
+        },
+       {
+            "name": "Weather App",
+            "framework": "React.Js - Tailwind CSS - OpenWeatherMap - Axios - Redux",
+            "description": "A website that provides real-time weather updates, forecasts, and city-specific conditions.",
+            "href": "https://wheaterweb.netlify.app/",
+            "photo": "/photo/wheater.png"
+       },
+       {
+        "name": "Eduwave",
+        "framework": "React.Js - Tailwind CSS - Spring Boot - PostgreSQL - Redux - Axios",
+        "description": "A website for seamless digital school fee payments, offering secure transactions and easy tracking for students and parents.",
+        "href": "https://eduwavee.netlify.app/",
+        "photo": "/photo/eduwave.png"
+        },
+         {
+        "name": "Sistem Alumni USK",
+        "framework": "Laravel - MySQL - PHP - HTML - CSS - Bootstrap",
+        "description": "A website for managing alumni systems for University of Syiah Kuala, providing features for data management, networking, and event coordination.",
+        "href": "",
+        "photo": "/photo/alumni.png"
+        },
+       {
+        "name": "E-Shipping",
+        "framework": "Laravel - MySQL - PHP - HTML - CSS - Bootstrap",
+        "description": "A website for efficient e-shipping, offering real-time tracking, and streamlined delivery management.",
+        "href": "",
+        "photo": "/photo/buraq.png"
+        }
+      
+    ]
+}

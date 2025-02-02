@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-surface-100 text-on-background tracking-wide
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold font-body 
+  }
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none; /* Untuk Chrome, Safari, dan Edge */
+}
+
+.scroll-hidden {
+  -ms-overflow-style: none; /* Untuk Internet Explorer */
+  scrollbar-width: none; /* Untuk Firefox */
+}
