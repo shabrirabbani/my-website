@@ -5,7 +5,7 @@ import Experiences from "@/components/experiences/experiences";
 import Header from "@/components/header";
 import Projects from '@/components/projects/projects';
 import {promises as fs} from 'fs';
-import VantaClouds from '@/components/vantaClouds';
+
 
 
 export default async function Home() {
@@ -14,11 +14,7 @@ export default async function Home() {
   const data = JSON.parse(file);
 
   return (
-    <main className="relative min-h-screen">
-      {/* VantaClouds as the background */}
-      <div className="hidden md:block absolute inset-0 z-0">
-        <VantaClouds />
-      </div>
+    <main className="relative min-h-screen bg-white">
 
       {/* Content container */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen">

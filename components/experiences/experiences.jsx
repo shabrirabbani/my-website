@@ -4,7 +4,7 @@ import ExperienceItem from "./experience-item";
 const Experiences = (props) => {
     return (
         <div data-section id='experiences' className='mb-16'>
-            <h2 className='mb-8 font-bold tracking-widest text-2xl underline'>Experiences</h2>
+            <h2 className='mb-8 font-bold tracking-widest text-2xl underline text-surface-100'>Experiences</h2>
             {props.data.map(function(object, index){
                 return <ExperienceItem  
                     key={`${object.title}+${object.startDate}`}

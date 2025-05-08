@@ -7,7 +7,7 @@
     @apply scroll-smooth;
   }
   body {
-    @apply bg-surface-100 text-on-background tracking-wide
+    @apply bg-on-background text-on-background tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {

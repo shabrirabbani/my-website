@@ -7,7 +7,7 @@ const Socials = (props) => {
         <a
           href="/cv.pdf"
           download="CV - Muhammad Shabri Rabbani.pdf"
-          className="md:col-span-2 transition-all bg-primary-300 hover:bg-primary-500 text-on-background font-bold py-2 rounded flex flex-row justify-center items-center">
+          className="md:col-span-2 transition-all bg-surface-400 hover:bg-surface-300 text-on-background font-bold py-2 rounded flex flex-row justify-center items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
